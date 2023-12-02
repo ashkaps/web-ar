@@ -34,7 +34,8 @@ function staticLoadPlaces() {
         //          lat: 13.084206,
         //          lng:  77.642021
         //     },
-        },{
+        // },
+        {
             name: 'Yonatan',
             location: {
                  lat: 46.26720554667716,
