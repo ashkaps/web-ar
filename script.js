@@ -115,13 +115,14 @@ function renderPlaces(places) {
         model.setAttribute('gps-entity-place', `latitude: ${latitude}; longitude: ${longitude};`);
 
         setModel(models[modelIndex], model);
-
+        console.log('Model Index: ' + modelIndex);
         model.setAttribute('animation-mixer', '');
 
         document.querySelector('button[data-action="change"]').addEventListener('click', function () {
             var entity = document.querySelector('[gps-entity-place]');
             modelIndex++;
             var newIndex = modelIndex % models.length;
+            console.log('New Model Index: ' + newIndex);
             setModel(models[newIndex], entity);
         });
 
