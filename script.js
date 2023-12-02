@@ -76,11 +76,11 @@ function staticLoadPlaces() {
 // ];
 
 var models = [
-    {
-        url: './assets/donut/scene.glb',
-        scale: '0.08 0.08 0.08',
+        {
+        url: './assets/articuno/scene.gltf',
+        scale: '0.2 0.2 0.2',
         rotation: '0 180 0',
-        info: 'Donut, Lv. 99, HP 150/150',
+        info: 'Articuno, Lv. 80, HP 100/100',
     },
 ];
 
