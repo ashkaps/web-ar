@@ -83,11 +83,17 @@ var models = [
     //     rotation: '0 180 0',
     //     info: 'Articuno, Lv. 80, HP 100/100',
     // }, 
+    // {
+    //     url: './assets/donut/Donnut.obj',
+    //     scale: '0.5 0.5 0.5',
+    //     rotation: '0 180 0',
+    //     info: 'Donut, Lv. 99, HP 150/150',
+    // }
     {
-        url: './assets/donut/Donnut.obj',
-        scale: '0.5 0.5 0.5',
+        url: './assets/donut/Donnut1.glb',
+        scale: '1 1 1',
         rotation: '0 180 0',
-        info: 'Donut, Lv. 99, HP 150/150',
+        info: 'Donut',
     }
 ];
 
