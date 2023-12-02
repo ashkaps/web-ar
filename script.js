@@ -15,37 +15,38 @@ function staticLoadPlaces() {
                  lat: 13.0847818,
                  lng: 77.6437249,
             },
-        },{
-            name: 'NH Exit Gate',
-            location: {
-                 lat: 13.083962,
-                 lng:  77.645329
-            },
-        },{
-            name: 'Discovery Center',
-            location: {
-                 lat: 13.082579,
-                 lng:  77.642296
-            },
-        },{
-            name: 'NH Park',
-            location: {
-                 lat: 13.084206,
-                 lng:  77.642021
-            },
-        },{
-            name: 'Leela',
-            location: {
-                 lat: 13.084501,
-                 lng: 77.643566,
-            },
-        },{
-            name: 'Astro Park',
-            location: {
-                 lat: 13.085383, 
-                 lng: 77.641971,
-            },
-        },
+        }
+        // ,{
+        //     name: 'NH Exit Gate',
+        //     location: {
+        //          lat: 13.083962,
+        //          lng:  77.645329
+        //     },
+        // },{
+        //     name: 'Discovery Center',
+        //     location: {
+        //          lat: 13.082579,
+        //          lng:  77.642296
+        //     },
+        // },{
+        //     name: 'NH Park',
+        //     location: {
+        //          lat: 13.084206,
+        //          lng:  77.642021
+        //     },
+        // },{
+        //     name: 'Leela',
+        //     location: {
+        //          lat: 13.084501,
+        //          lng: 77.643566,
+        //     },
+        // },{
+        //     name: 'Astro Park',
+        //     location: {
+        //          lat: 13.085383, 
+        //          lng: 77.641971,
+        //     },
+        // },
     ];
 }
 
@@ -76,12 +77,13 @@ function staticLoadPlaces() {
 // ];
 
 var models = [
-        {
-        url: './assets/articuno/scene.gltf',
-        scale: '0.2 0.2 0.2',
-        rotation: '0 180 0',
-        info: 'Articuno, Lv. 80, HP 100/100',
-    }, {
+    //     {
+    //     url: './assets/articuno/scene.gltf',
+    //     scale: '0.2 0.2 0.2',
+    //     rotation: '0 180 0',
+    //     info: 'Articuno, Lv. 80, HP 100/100',
+    // }, 
+    {
         url: './assets/donut/Krapfen2.glb',
         scale: '0.5 0.5 0.5',
         rotation: '0 180 0',
