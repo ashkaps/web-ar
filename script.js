@@ -68,7 +68,7 @@ function staticLoadPlaces() {
 //         rotation: '0 180 0',
 //         info: 'Dragonite, Lv. 99, HP 150/150',
 //     }, {
-//         url: './assets/donut/scene.glb',
+//         url: './assets/donut/Krapfen2.glb',
 //         scale: '0.08 0.08 0.08',
 //         rotation: '0 180 0',
 //         info: 'Donut, Lv. 99, HP 150/150',
@@ -81,7 +81,12 @@ var models = [
         scale: '0.2 0.2 0.2',
         rotation: '0 180 0',
         info: 'Articuno, Lv. 80, HP 100/100',
-    },
+    }, {
+        url: './assets/donut/Krapfen2.glb',
+        scale: '0.5 0.5 0.5',
+        rotation: '0 180 0',
+        info: 'Donut, Lv. 99, HP 150/150',
+    }
 ];
 
 var modelIndex = 0;
