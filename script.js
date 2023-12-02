@@ -9,13 +9,13 @@ window.onload = () => {
 
 function staticLoadPlaces() {
     return [
-        {
-            name: 'Home',
-            location: {
-                 lat: 13.0847818,
-                 lng: 77.6437249,
-            },
-        }
+        // {
+        //     name: 'Home',
+        //     location: {
+        //          lat: 13.0847818,
+        //          lng: 77.6437249,
+        //     },
+        // }
         // ,{
         //     name: 'NH Exit Gate',
         //     location: {
@@ -34,13 +34,14 @@ function staticLoadPlaces() {
         //          lat: 13.084206,
         //          lng:  77.642021
         //     },
-        // },{
-        //     name: 'Leela',
-        //     location: {
-        //          lat: 13.084501,
-        //          lng: 77.643566,
-        //     },
-        // },{
+        },{
+            name: 'Yonatan',
+            location: {
+                 lat: 46.26720554667716,
+                 lng: 15.539284518998622,
+            },
+        },
+        // {
         //     name: 'Astro Park',
         //     location: {
         //          lat: 13.085383, 
