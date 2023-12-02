@@ -84,7 +84,7 @@ var models = [
     //     info: 'Articuno, Lv. 80, HP 100/100',
     // }, 
     {
-        url: './assets/donut/Krapfen2.glb',
+        url: './assets/donut/Donnut.obj',
         scale: '0.5 0.5 0.5',
         rotation: '0 180 0',
         info: 'Donut, Lv. 99, HP 150/150',
