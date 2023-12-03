@@ -130,7 +130,7 @@ var models = [
 ];
 
 var modelIndex = 0;
-var setModel = function (model, entity) {
+var setModel = function (model, entity, place) {
     if (model.scale) {
         entity.setAttribute('scale', model.scale);
     }
@@ -146,7 +146,7 @@ var setModel = function (model, entity) {
     entity.setAttribute('gltf-model', model.url);
 
     const div = document.querySelector('.instructions');
-    div.innerText = model.info;
+    div.innerText = model.info + " (" + place.name + ")";
 };
 
 function renderPlaces(places) {
@@ -159,7 +159,7 @@ function renderPlaces(places) {
         let model = document.createElement('a-entity');
         model.setAttribute('gps-entity-place', `latitude: ${latitude}; longitude: ${longitude};`);
 
-        setModel(models[modelIndex], model);
+        setModel(models[modelIndex], model, place);
         console.log('Model Index: ' + modelIndex);
         model.setAttribute('animation-mixer', '');
 
@@ -168,7 +168,7 @@ function renderPlaces(places) {
             modelIndex++;
             var newIndex = modelIndex % models.length;
             console.log('New Model Index: ' + newIndex);
-            setModel(models[newIndex], entity);
+            setModel(models[newIndex], entity, place);
         });
 
         scene.appendChild(model);
