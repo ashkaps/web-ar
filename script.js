@@ -126,32 +126,32 @@ var models = [
         info: 'Articuno 1.0',
     }, 
     {
-        url: './assets/donut/Donnut.obj',
+        url: './assets/articuno/scene.gltf',
         scale: '0.5 0.5 0.5',
         rotation: '0 180 0',
          position: '0 10 0',
-        info: 'Donut, Lv. 99, HP 150/150',
+        info: 'articuno, Lv. 99, HP 150/150',
     },
     {
-        url: './assets/donut/Donnut1.glb',
+        url: './assets/articuno/scene.gltf',
         scale: '0.1 0.1 0.1',
         rotation: '0 180 0',
          position: '0 10 0',
-        info: 'Donut p10 r180 0.1',
+        info: 'articuno p10 r180 0.1',
     },
     {
-        url: './assets/donut/Donnut1.glb',
-        scale: '0.5 0.5 0.5',
+        url: './assets/articuno/scene.gltf',
+        scale: '0.2 0.2 0.2',
         rotation: '0 180 0',
          position: '0 100 0',
-        info: 'Donut p100 r180 0.5',
+        info: 'articuno p100 r180 0.2',
     },
     {
-        url: './assets/donut/Donnut1.glb',
+        url: './assets/articuno/scene.gltf',
         scale: '0.3 0.3 0.3',
         rotation: '0 0 0',
          position: '0 0 0',
-        info: 'Donut r0 p0 0.3',
+        info: 'articuno r0 p0 0.3',
     }
 ];
 
