@@ -150,8 +150,15 @@ var models = [
         url: './assets/donut/scene.glb',
         scale: '0.3 0.3 0.3',
         rotation: '0 0 0',
-         position: '0 -1 0',
+        position: '0 -1 0',
         info: 'articuno r0 p0 0.3',
+    },{
+        url: './assets/donutn/scene.obj',
+        mtl: './assets/donutn/donut.mtl',
+        scale: '0.5 0.5 0.5',
+        rotation: '0 180 0',
+        // position: '0 -1 0',
+        info: 'Donut Obj r180 pna 0.5',
     }
 ];
 
@@ -169,7 +176,12 @@ var setModel = function (model, entity, place) {
         entity.setAttribute('position', model.position);
     }
 
-    entity.setAttribute('gltf-model', model.url);
+    if (model.mtl) {
+        entity.setAttribute('obj-model', "obj: url(" + model.url + "); mtl: url(" + model.mtl + ")");
+    } else {
+        entity.setAttribute('gltf-model', model.url);
+    }
+    
 
     const div = document.querySelector('.instructions');
     div.innerText = model.info + " (" + place.name + ")";
