@@ -103,28 +103,33 @@ var models = [
         url: './assets/articuno/scene.gltf',
         scale: '0.5 0.5 0.5',
         rotation: '0 180 0',
+        position: '0 10 0',
         info: 'Articuno 0.5',
     }, {
         url: './assets/articuno/scene.gltf',
         scale: '0.2 0.2 0.2',
         rotation: '0 180 0',
+        position: '0 10 0',
         info: 'Articuno 0.2',
     }, {
         url: './assets/articuno/scene.gltf',
         scale: '1.0 1.0 1.0',
         rotation: '0 180 0',
+        position: '0 10 0',
         info: 'Articuno 1.0',
     }, 
     // {
     //     url: './assets/donut/Donnut.obj',
     //     scale: '0.5 0.5 0.5',
     //     rotation: '0 180 0',
+    //      position: '0 10 0',
     //     info: 'Donut, Lv. 99, HP 150/150',
     // }
     // {
     //     url: './assets/donut/Donnut1.glb',
     //     scale: '1 1 1',
     //     rotation: '0 180 0',
+    //      position: '0 10 0',
     //     info: 'Donut',
     // }
 ];
@@ -157,14 +162,14 @@ function renderPlaces(places) {
         let longitude = place.location.lng;
 
         let model = document.createElement('a-entity');
-        model.setAttribute('gps-entity-place', `latitude: ${latitude}; longitude: ${longitude};`);
+        model.setAttribute('gps-new-entity-place', `latitude: ${latitude}; longitude: ${longitude};`);
 
         setModel(models[modelIndex], model, place);
         console.log('Model Index: ' + modelIndex);
         model.setAttribute('animation-mixer', '');
 
         document.querySelector('button[data-action="change"]').addEventListener('click', function () {
-            var entity = document.querySelector('[gps-entity-place]');
+            var entity = document.querySelector('[gps-new-entity-place]');
             modelIndex++;
             var newIndex = modelIndex % models.length;
             console.log('New Model Index: ' + newIndex);
