@@ -10,6 +10,13 @@ window.onload = () => {
 function staticLoadPlaces() {
     return [
         {
+            name: 'Aish',
+            location: {
+                 lat: 13.084793,
+                 lng:  77.64371,
+            },
+        },
+        {
             name: 'NH Entry Gate',
             location: {
                  lat: 13.084787,
