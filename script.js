@@ -9,32 +9,45 @@ window.onload = () => {
 
 function staticLoadPlaces() {
     return [
-        // {
-        //     name: 'Home',
-        //     location: {
-        //          lat: 13.0847818,
-        //          lng: 77.6437249,
-        //     },
-        // }
-        // ,{
-        //     name: 'NH Exit Gate',
-        //     location: {
-        //          lat: 13.083962,
-        //          lng:  77.645329
-        //     },
-        // },{
-        //     name: 'Discovery Center',
-        //     location: {
-        //          lat: 13.082579,
-        //          lng:  77.642296
-        //     },
-        // },{
-        //     name: 'NH Park',
-        //     location: {
-        //          lat: 13.084206,
-        //          lng:  77.642021
-        //     },
-        // },
+        {
+            name: 'NH Entry Gate',
+            location: {
+                 lat: 13.084787,
+                 lng:  77.643533,
+            },
+        }
+        ,{
+            name: 'NH Exit Gate Circle',
+            location: {
+                 lat: 13.083952,
+                 lng: 77.645349
+            },
+        },{
+            name: 'NH Entry Crossing',
+            location: {
+                 lat: 13.081931, 
+                 lng:  77.641913
+            },
+        },{
+            name: 'Leela',
+            location: {
+                 lat: 13.084154,
+                 lng:  77.643268
+            },
+        },{
+            name: 'Leela',
+            location: {
+                 lat: 13.084154,
+                 lng:  77.643268
+            },
+        },
+        {
+            name: 'Park',
+            location: {
+                 lat: 13.083344, 
+                 lng:  77.642232
+            },
+        },
         {
             name: 'Yonatan',
             location: {
@@ -42,13 +55,13 @@ function staticLoadPlaces() {
                  lng: 15.539284518998622,
             },
         },
-        // {
-        //     name: 'Astro Park',
-        //     location: {
-        //          lat: 13.085383, 
-        //          lng: 77.641971,
-        //     },
-        // },
+        {
+            name: 'Astro Park',
+            location: {
+                 lat: 13.084640, 
+                 lng: 77.641765
+            },
+        },
     ];
 }
 
@@ -79,24 +92,34 @@ function staticLoadPlaces() {
 // ];
 
 var models = [
-    //     {
-    //     url: './assets/articuno/scene.gltf',
-    //     scale: '0.2 0.2 0.2',
-    //     rotation: '0 180 0',
-    //     info: 'Articuno, Lv. 80, HP 100/100',
-    // }, 
+        {
+        url: './assets/articuno/scene.gltf',
+        scale: '0.5 0.5 0.5',
+        rotation: '0 180 0',
+        info: 'Articuno 0.5',
+    }, {
+        url: './assets/articuno/scene.gltf',
+        scale: '0.2 0.2 0.2',
+        rotation: '0 180 0',
+        info: 'Articuno 0.2',
+    }, {
+        url: './assets/articuno/scene.gltf',
+        scale: '1.0 1.0 1.0',
+        rotation: '0 180 0',
+        info: 'Articuno 1.0',
+    }, 
     // {
     //     url: './assets/donut/Donnut.obj',
     //     scale: '0.5 0.5 0.5',
     //     rotation: '0 180 0',
     //     info: 'Donut, Lv. 99, HP 150/150',
     // }
-    {
-        url: './assets/donut/Donnut1.glb',
-        scale: '1 1 1',
-        rotation: '0 180 0',
-        info: 'Donut',
-    }
+    // {
+    //     url: './assets/donut/Donnut1.glb',
+    //     scale: '1 1 1',
+    //     rotation: '0 180 0',
+    //     info: 'Donut',
+    // }
 ];
 
 var modelIndex = 0;
