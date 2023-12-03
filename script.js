@@ -9,13 +9,13 @@ window.onload = () => {
 
 function staticLoadPlaces() {
     return [
-        {
-            name: 'Aish',
-            location: {
-                 lat: 13.084793,
-                 lng:  77.64371,
-            },
-        },
+        // {
+        //     name: 'Aish',
+        //     location: {
+        //          lat: 13.084793,
+        //          lng:  77.64371,
+        //     },
+        // },
         {
             name: 'NH Entry Gate',
             location: {
@@ -23,45 +23,45 @@ function staticLoadPlaces() {
                  lng:  77.643533,
             },
         }
-        ,{
-            name: 'NH Exit Gate Circle',
-            location: {
-                 lat: 13.083952,
-                 lng: 77.645349
-            },
-        },{
-            name: 'NH Entry Crossing',
-            location: {
-                 lat: 13.081931, 
-                 lng:  77.641913
-            },
-        },{
-            name: 'Leela',
-            location: {
-                 lat: 13.084154,
-                 lng:  77.643268
-            },
-        },{
-            name: 'Leela',
-            location: {
-                 lat: 13.084154,
-                 lng:  77.643268
-            },
-        },
-        {
-            name: 'Park',
-            location: {
-                 lat: 13.083344, 
-                 lng:  77.642232
-            },
-        },
-        {
-            name: 'Yonatan',
-            location: {
-                 lat: 46.26720554667716,
-                 lng: 15.539284518998622,
-            },
-        },
+        // ,{
+        //     name: 'NH Exit Gate Circle',
+        //     location: {
+        //          lat: 13.083952,
+        //          lng: 77.645349
+        //     },
+        // },{
+        //     name: 'NH Entry Crossing',
+        //     location: {
+        //          lat: 13.081931, 
+        //          lng:  77.641913
+        //     },
+        // },{
+        //     name: 'Leela',
+        //     location: {
+        //          lat: 13.084154,
+        //          lng:  77.643268
+        //     },
+        // },{
+        //     name: 'Leela',
+        //     location: {
+        //          lat: 13.084154,
+        //          lng:  77.643268
+        //     },
+        // },
+        // {
+        //     name: 'Park',
+        //     location: {
+        //          lat: 13.083344, 
+        //          lng:  77.642232
+        //     },
+        // },
+        // {
+        //     name: 'Yonatan',
+        //     location: {
+        //          lat: 46.26720554667716,
+        //          lng: 15.539284518998622,
+        //     },
+        // },
         // {
         //     name: 'Astro Park',
         //     location: {
