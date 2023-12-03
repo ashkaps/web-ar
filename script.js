@@ -129,7 +129,7 @@ var models = [
         url: './assets/donut/Donnut1.glb',
         scale: '1 1 1',
         rotation: '0 180 0',
-         position: '0 10 0',
+        //  position: '0 10 0',
         info: 'Donut',
     }
 ];
