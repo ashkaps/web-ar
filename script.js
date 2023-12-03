@@ -99,25 +99,25 @@ function staticLoadPlaces() {
 // ];
 
 var models = [
-        {
-        url: './assets/articuno/scene.gltf',
-        scale: '0.5 0.5 0.5',
-        rotation: '0 180 0',
-        position: '0 10 0',
-        info: 'Articuno 0.5',
-    }, {
-        url: './assets/articuno/scene.gltf',
-        scale: '0.2 0.2 0.2',
-        rotation: '0 180 0',
-        position: '0 10 0',
-        info: 'Articuno 0.2',
-    }, {
-        url: './assets/articuno/scene.gltf',
-        scale: '1.0 1.0 1.0',
-        rotation: '0 180 0',
-        position: '0 10 0',
-        info: 'Articuno 1.0',
-    }, 
+    //     {
+    //     url: './assets/articuno/scene.gltf',
+    //     scale: '0.5 0.5 0.5',
+    //     rotation: '0 180 0',
+    //     position: '0 10 0',
+    //     info: 'Articuno 0.5',
+    // }, {
+    //     url: './assets/articuno/scene.gltf',
+    //     scale: '0.2 0.2 0.2',
+    //     rotation: '0 180 0',
+    //     position: '0 10 0',
+    //     info: 'Articuno 0.2',
+    // }, {
+    //     url: './assets/articuno/scene.gltf',
+    //     scale: '1.0 1.0 1.0',
+    //     rotation: '0 180 0',
+    //     position: '0 10 0',
+    //     info: 'Articuno 1.0',
+    // }, 
     // {
     //     url: './assets/donut/Donnut.obj',
     //     scale: '0.5 0.5 0.5',
@@ -125,13 +125,13 @@ var models = [
     //      position: '0 10 0',
     //     info: 'Donut, Lv. 99, HP 150/150',
     // }
-    // {
-    //     url: './assets/donut/Donnut1.glb',
-    //     scale: '1 1 1',
-    //     rotation: '0 180 0',
-    //      position: '0 10 0',
-    //     info: 'Donut',
-    // }
+    {
+        url: './assets/donut/Donnut1.glb',
+        scale: '1 1 1',
+        rotation: '0 180 0',
+        position: '0 10 0',
+        info: 'Donut',
+    }
 ];
 
 var modelIndex = 0;
