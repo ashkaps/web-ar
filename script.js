@@ -62,13 +62,13 @@ function staticLoadPlaces() {
                  lng: 15.539284518998622,
             },
         },
-        {
-            name: 'Astro Park',
-            location: {
-                 lat: 13.084640, 
-                 lng: 77.641765
-            },
-        },
+        // {
+        //     name: 'Astro Park',
+        //     location: {
+        //          lat: 13.084640, 
+        //          lng: 77.641765
+        //     },
+        // },
     ];
 }
 
