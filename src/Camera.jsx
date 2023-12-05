@@ -65,10 +65,10 @@ const Camera = () => {
       </div>
       <a-entity
       // gltf-model="url(/models/donut.glb)"  
-        gltf-model="url(https://cdn.glitch.com/90a30469-f038-4054-be9c-fd1ec94a810d/kitchentest.glb)"
+        gltf-model="url(https://kaprin.s3.ap-south-1.amazonaws.com/Krapfen2.glb)"
         position="0 1 -2"
         scale="300 300 300"
-        gps-new-entity-place="latitude: 23.79923783; longitude: 90.46175523"
+        gps-new-entity-place="latitude: 48.17015; longitude: 16.457974"
       ></a-entity> 
       {/* <a-image
         position="0 1 -2"
