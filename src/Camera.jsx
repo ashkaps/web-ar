@@ -73,7 +73,7 @@ const Camera = () => {
       <a-image
         position="0 1 -2"
         scale="50 50 50"
-        gps-new-entity-place="latitude: 23.79923783; longitude: 90.46175523"
+        gps-new-entity-place="latitude: 13.0938773; longitude: 77.6421572"
         src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTUqn60q2BrKtlW-NQq10Pz6aba7mKE2hBGw1z2eSgoOA&s"
       ></a-image>
 
