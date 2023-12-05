@@ -63,19 +63,19 @@ const Camera = () => {
           Capture Image
         </button>
       </div>
-      {/* <a-entity
+      <a-entity
       // gltf-model="url(/models/donut.glb)"  
         gltf-model="url(https://cdn.glitch.com/90a30469-f038-4054-be9c-fd1ec94a810d/kitchentest.glb)"
         position="0 1 -2"
         scale="300 300 300"
         gps-new-entity-place="latitude: 23.79923783; longitude: 90.46175523"
-      ></a-entity> */}
-      <a-image
+      ></a-entity> 
+      {/* <a-image
         position="0 1 -2"
         scale="50 50 50"
         gps-new-entity-place="latitude: 13.0938773; longitude: 77.6421572"
         src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTUqn60q2BrKtlW-NQq10Pz6aba7mKE2hBGw1z2eSgoOA&s"
-      ></a-image>
+      ></a-image> */}
 
       <img style={{ display: "none"}} crossOrigin="anonymous" width={20} height={20} src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTUqn60q2BrKtlW-NQq10Pz6aba7mKE2hBGw1z2eSgoOA&s" />
     </a-scene>
