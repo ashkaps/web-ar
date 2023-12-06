@@ -38,21 +38,21 @@ var models = [
         scale: '0.9 0.9 0.9',
         info: 'Magnemite, 0.9',
         rotation: '0 0 0',
-        position: '0 0 0',
+        position: '0 0 -2',
     },
     {
         url: './assets/articuno/scene.gltf',
         scale: '0.5 0.5 0.5',
         rotation: '0 0 0',
         info: 'Articuno, 0.5',
-        position: '0 0 0',
+        position: '0 0 -2',
     },
     {
         url: './assets/dragonite/scene.gltf',
         scale: '0.2 0.2 0.2',
         rotation: '0 0 0',
         info: 'Dragonite,0.2',
-        position: '0 0 0',
+        position: '0 0 -2',
     },
 ];
 
@@ -84,14 +84,14 @@ function renderPlaces(places) {
         let longitude = place.location.lng;
 
         let model = document.createElement('a-entity');
-        model.setAttribute('gps-entity-place', `latitude: ${latitude}; longitude: ${longitude};`);
+        model.setAttribute('gps-new-entity-place', `latitude: ${latitude}; longitude: ${longitude};`);
 
         setModel(models[modelIndex], model, place);
 
         model.setAttribute('animation-mixer', '');
 
         document.querySelector('button[data-action="change"]').addEventListener('click', function () {
-            var entity = document.querySelector('[gps-entity-place]');
+            var entity = document.querySelector('[gps-new-entity-place]');
             modelIndex++;
             var newIndex = modelIndex % models.length;
             setModel(models[newIndex], entity, place);
