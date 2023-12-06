@@ -16,19 +16,19 @@ function staticLoadPlaces() {
                 lng: 77.6421572,
             },
         },
-        {
-            name: 'Main Gate',
-            location: {
-                lat: 13.084738, 
-                lng: 77.643521,
-            },
-        },{
-            name: 'Pokèmon 1',
-            location: {
-                lat: 13.0928773,
-                lng: 77.6411572,
-            },
-        },
+        // {
+        //     name: 'Main Gate',
+        //     location: {
+        //         lat: 13.084738, 
+        //         lng: 77.643521,
+        //     },
+        // },{
+        //     name: 'Pokèmon 1',
+        //     location: {
+        //         lat: 13.0928773,
+        //         lng: 77.6411572,
+        //     },
+        // },
     ];
 }
 
