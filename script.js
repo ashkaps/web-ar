@@ -55,7 +55,7 @@ var models = [
         position: '0 1 -2',
     },
     {
-        url: 'https://kaprin.s3.ap-south-1.amazonaws.com/Krapfen2.glb',
+        url: './assets/donut/donut.glb',
         scale: '2 2 2',
         rotation: '0 0 0',
         info: 'Donut',
@@ -96,6 +96,7 @@ function renderPlaces(places) {
         setModel(models[modelIndex], model, place);
 
         model.setAttribute('animation-mixer', '');
+        model.setAttribute('look-at', '[gps-camera]');
 
         document.querySelector('button[data-action="change"]').addEventListener('click', function () {
             var entity = document.querySelector('[gps-new-entity-place]');
