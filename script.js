@@ -38,21 +38,21 @@ var models = [
         scale: '0.9 0.9 0.9',
         info: 'Magnemite, 0.9',
         rotation: '0 0 0',
-        position: '0 0 -2',
+        position: '0 1 -2',
     },
     {
         url: './assets/articuno/scene.gltf',
         scale: '0.5 0.5 0.5',
         rotation: '0 0 0',
         info: 'Articuno, 0.5',
-        position: '0 0 -2',
+        position: '0 1 -2',
     },
     {
         url: './assets/dragonite/scene.gltf',
         scale: '0.2 0.2 0.2',
         rotation: '0 0 0',
         info: 'Dragonite,0.2',
-        position: '0 0 -2',
+        position: '0 1 -2',
     },
 ];
 
