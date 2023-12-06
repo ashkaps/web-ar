@@ -54,6 +54,13 @@ var models = [
         info: 'Dragonite,0.2',
         position: '0 1 -2',
     },
+    {
+        url: 'https://kaprin.s3.ap-south-1.amazonaws.com/Krapfen2.glb',
+        scale: '2 2 2',
+        rotation: '0 0 0',
+        info: 'Donut',
+        position: '0 1 -2',
+    },
 ];
 
 var modelIndex = 0;
