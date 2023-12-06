@@ -10,12 +10,6 @@ window.onload = () => {
 function staticLoadPlaces() {
     return [
         {
-            name: 'Pokèmon 1',
-            location: {
-                lat: 13.0928773,
-                lng: 77.6411572,
-            },
-        },{
             name: 'Pokèmon 2',
             location: {
                 lat: 13.0938773,
@@ -27,6 +21,12 @@ function staticLoadPlaces() {
             location: {
                 lat: 13.084738, 
                 lng: 77.643521,
+            },
+        },{
+            name: 'Pokèmon 1',
+            location: {
+                lat: 13.0928773,
+                lng: 77.6411572,
             },
         },
     ];
