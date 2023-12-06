@@ -36,7 +36,7 @@ var models = [
     {
         url: './assets/magnemite/scene.gltf',
         scale: '0.9 0.9 0.9',
-        info: 'Magnemite, Lv. 5, HP 10/10',
+        info: 'Magnemite, 0.9',
         rotation: '0 0 0',
         position: '0 0 0',
     },
@@ -44,20 +44,20 @@ var models = [
         url: './assets/articuno/scene.gltf',
         scale: '0.5 0.5 0.5',
         rotation: '0 0 0',
-        info: 'Articuno, Lv. 80, HP 100/100',
+        info: 'Articuno, 0.5',
         position: '0 0 0',
     },
     {
         url: './assets/dragonite/scene.gltf',
         scale: '0.2 0.2 0.2',
         rotation: '0 0 0',
-        info: 'Dragonite, Lv. 99, HP 150/150',
+        info: 'Dragonite,0.2',
         position: '0 0 0',
     },
 ];
 
 var modelIndex = 0;
-var setModel = function (model, entity) {
+var setModel = function (model, entity, place) {
     if (model.scale) {
         entity.setAttribute('scale', model.scale);
     }
@@ -73,7 +73,7 @@ var setModel = function (model, entity) {
     entity.setAttribute('gltf-model', model.url);
 
     const div = document.querySelector('.instructions');
-    div.innerText = model.info;
+    div.innerText = model.info + " (" + place.name + ")";
 };
 
 function renderPlaces(places) {
@@ -86,7 +86,7 @@ function renderPlaces(places) {
         let model = document.createElement('a-entity');
         model.setAttribute('gps-entity-place', `latitude: ${latitude}; longitude: ${longitude};`);
 
-        setModel(models[modelIndex], model);
+        setModel(models[modelIndex], model, place);
 
         model.setAttribute('animation-mixer', '');
 
