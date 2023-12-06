@@ -23,10 +23,11 @@ function staticLoadPlaces() {
                 lng: 77.643521,
             },
         },{
-            name: 'Pokèmon 1',
+            name: 'Leela',
             location: {
-                lat: 13.0928773,
-                lng: 77.6411572,
+                lat: 13.084663, 
+
+                lng: 77.643087
             },
         },{
             name: 'NH Swimming Pool',
