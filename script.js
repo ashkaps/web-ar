@@ -22,46 +22,46 @@ function staticLoadPlaces() {
                 lng: 77.6421572,
             },
         },
-        {
-            name: 'Main Gate',
-            location: {
-                lat: 13.084738, 
-                lng: 77.643521,
-            },
-        },{
-            name: 'Leela',
-            location: {
-                lat: 13.084663, 
+        // {
+        //     name: 'Main Gate',
+        //     location: {
+        //         lat: 13.084738, 
+        //         lng: 77.643521,
+        //     },
+        // },{
+        //     name: 'Leela',
+        //     location: {
+        //         lat: 13.084663, 
 
-                lng: 77.643087
-            },
-        },{
-            name: 'NH Swimming Pool',
-            location: {
-                lat: 13.085630,
-                lng: 77.644867,
-            },
-        },{
-            name: 'NH Tennis Court',
-            location: {
-                lat: 13.085268, 
-                lng: 77.646041,
-            },
-        },{
-            name: 'NH Back Gate',
-            location: {
-                lat: 13.083951, 
-                lng: 77.645350
+        //         lng: 77.643087
+        //     },
+        // },{
+        //     name: 'NH Swimming Pool',
+        //     location: {
+        //         lat: 13.085630,
+        //         lng: 77.644867,
+        //     },
+        // },{
+        //     name: 'NH Tennis Court',
+        //     location: {
+        //         lat: 13.085268, 
+        //         lng: 77.646041,
+        //     },
+        // },{
+        //     name: 'NH Back Gate',
+        //     location: {
+        //         lat: 13.083951, 
+        //         lng: 77.645350
 
-            },
-        },{
-            name: 'NH Near Mini Market',
-            location: {
-                lat: 13.084586,
-                lng: 77.645679
+        //     },
+        // },{
+        //     name: 'NH Near Mini Market',
+        //     location: {
+        //         lat: 13.084586,
+        //         lng: 77.645679
 
-            },
-        },
+        //     },
+        // },
     ];
 }
 
@@ -89,7 +89,7 @@ var models = [
     },
     {
         url: './assets/donut/donut.glb',
-        scale: '0.09 0.09 0.09',
+        scale: '0.07 0.07 0.07',
         rotation: '0 0 0',
         info: 'Donut',
         position: '0 1 -2',
