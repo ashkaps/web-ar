@@ -56,7 +56,7 @@ var models = [
     },
     {
         url: './assets/donut/donut.glb',
-        scale: '0.01 0.01 0.01',
+        scale: '0.07 0.07 0.07',
         rotation: '0 0 0',
         info: 'Donut',
         position: '0 1 -2',
