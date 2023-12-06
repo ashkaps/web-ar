@@ -16,19 +16,45 @@ function staticLoadPlaces() {
                 lng: 77.6421572,
             },
         },
-        // {
-        //     name: 'Main Gate',
-        //     location: {
-        //         lat: 13.084738, 
-        //         lng: 77.643521,
-        //     },
-        // },{
-        //     name: 'Pokèmon 1',
-        //     location: {
-        //         lat: 13.0928773,
-        //         lng: 77.6411572,
-        //     },
-        // },
+        {
+            name: 'Main Gate',
+            location: {
+                lat: 13.084738, 
+                lng: 77.643521,
+            },
+        },{
+            name: 'Pokèmon 1',
+            location: {
+                lat: 13.0928773,
+                lng: 77.6411572,
+            },
+        },{
+            name: 'NH Swimming Pool',
+            location: {
+                lat: 13.085630,
+                lng: 77.644867,
+            },
+        },{
+            name: 'NH Tennis Court',
+            location: {
+                lat: 13.085268, 
+                lng: 77.646041,
+            },
+        },{
+            name: 'NH Back Gate',
+            location: {
+                lat: 13.083951, 
+                lng: 77.645350
+
+            },
+        },{
+            name: 'NH Near Mini Market',
+            location: {
+                lat: 13.084586,
+                lng: 77.645679
+
+            },
+        },
     ];
 }
 
